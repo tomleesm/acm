@@ -23,6 +23,7 @@ public class Q10209 {
             B = ( 1 - Math.sqrt(3) + (Math.PI / 3) ) * a * a ;
             C = ( (Math.sqrt(3) / 2) - 1 + (Math.PI / 12) ) * a * a;
 
+            // 所求是總面積，所以乘上 4
             System.out.printf("%.3f %.3f %.3f\n", B, 4* C, 4 * A);
         }
     }
